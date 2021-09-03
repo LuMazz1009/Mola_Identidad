@@ -49,18 +49,18 @@ p{
 }
 .fuenteSec{
     font-family: 'Andika', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 .paddingPrincipal{ 
     padding: 20px 0;
 }
 /* card fragancias */
 .card-title{
-    font-size: 35px;
+    font-size: 30px;
 }
 .card-text{
     font-family: 'Andika', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
 }
 .marginCard{
     margin: 0;
@@ -133,6 +133,7 @@ p{
     justify-content: center;
     list-style-type: none;
     margin-top: 150px;
+    background-color: var(--background2);
 }
 .footer__padding{
     padding: 45px;
