@@ -1,0 +1,147 @@
+/* css general */
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+:root {
+    --colorPri: #674348;
+    --colorSec: #997782;
+    --background1: #fcf4f0;
+    --background2: #edd5d8;
+}
+
+/* logo */
+.hoverLogo{
+    transition: all 3s;
+}
+.hoverLogo:hover{
+    transform: translateY(-30px);
+}
+/* nav */
+.bgColor{
+    background-color: var(--background2);
+    overflow-x: hidden;
+}
+.navbar-nav .nav-item .nav-link{
+    color: var(--colorSec);
+    font-size: 35px;
+}
+.navbar-nav > li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* contenido principal */
+body{
+    background-color: var(--background1);
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    color: var(--colorPri);
+    padding: 20px;
+    margin-top: 35px;
+}
+p{
+    color: var(--colorSec);
+    line-height: 65px;
+}
+.fuenteSec{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+}
+.paddingPrincipal{ 
+    padding: 20px 0;
+}
+/* card fragancias */
+.card-title{
+    font-size: 35px;
+}
+.card-text{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+}
+.marginCard{
+    margin: 0;
+}
+.baseBlock {
+	margin: 0px 0px 35px 0px;
+	padding: 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	min-height: 390px;
+	background: #fff;
+	-moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	-o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+	transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.baseBlock:hover {
+	-webkit-transform: translate(0, -8px);
+	-moz-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	-o-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+	box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+}
+/* nosotras */
+.nosotras__parrafo{
+    padding: 30px;
+}
+.imgNos{
+    padding: 80px;
+    border-radius: 50%;
+}
+/* tienda */
+.listado{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+}
+.btnList{
+    font-family: 'Andika', sans-serif;
+    font-size: 20px;
+    background-color: #997782;
+    color: #fcf4f0;
+    border: none;
+}
+/* formulario */
+.formulario{
+    padding: 50px;
+    margin-left: 500px;
+}
+.form-control{
+    font-family: 'Andika', sans-serif;
+}
+.btn {
+    font-family: 'Andika', sans-serif;
+    font-weight: bolder;
+    width: 100%;
+    font-size: 30px;
+    border: none;
+    color: white;
+    background: linear-gradient(0deg, rgba(153,119,130,1) 0%, rgba(198,150,130,0.9416141456582633) 73%, rgba(247,237,225,1) 100%);
+}
+.btn:hover{
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+/* footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 150px;
+}
+.footer__padding{
+    padding: 45px;
+}
+h4{
+    font-size: 20px;
+    background-color: var(--background2);
+    text-align: center;
+    color: var(--colorPri);
+    padding: 10px;
+    margin-top: 25px;
+}
