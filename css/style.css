@@ -92,6 +92,9 @@ p{
     padding: 80px;
     border-radius: 50%;
 }
+.btNos{
+    margin-left: 150px;
+}
 /* tienda */
 .listado{
     font-family: 'Andika', sans-serif;
