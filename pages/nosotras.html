@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="../assets/img/favicon.png">
     <!-- css bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- AOS css -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <!-- mi css -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -59,20 +61,19 @@
         </div>
         <div class="row">
             <div class="col-lg-6 col-xs-12">
-                <p class="nosotras__parrafo fuenteSec text-center">¡Hola! ¿Cómo están?
+                <p class="nosotras__parrafo fuenteSec text-center" data-aos="fade-down">¡Hola! ¿Cómo están?
                     Somos Marina y Anahí, y queremos compartir con ustedes nuestra historia y como llegamos a SER hoy MOLAIDENTIDAD.
                     Nos unió una profesión maravillosa, que desempeñamos durante 15 años, somos Tripulantes de Cabina de Pasajeros, así lo dicen nuestra habilitaciones Aeronáuticas, allá por el año 2007, en una reunión de Duty Free (les cuento que significa esto, son las ventas de productos a bordo del avión, y adivinen que vendíamos... pues claro.. PERFUMES, además de otras cosas), nos premiaron por las mismas .. y ahí nos conocimos.
                     Después de algún tiempo, empezamos a volar juntas, y como digo yo EL MEDIO SE ADAPTA, siempre, siempre, siempre, nos hicimos muy amigas, comprábamos los mismos jabones para manos, coincidíamos en las mismas fragancias , perfumábamos nuestro uniforme con hermosos aromas, a donde viajábamos esa fragancia nos acompañaba, se puede decir que ya de a poco el Universo nos iba dando señales...
-                    
                 </p>
             </div>
             <div class="col-lg-6 col-xs-12">
-                <img src="../assets/img/chicasmola.jpg" class="imgNos img-fluid" alt="anahi y marina">
+                <img src="../assets/img/chicasmola.jpg" class="imgNos img-fluid" data-aos="flip-left" alt="anahi y marina">
             </div>
         </div>
-        <div class="row texto">
+        <div class="row">
             <div class="col-lg-6 col-xs-12">
-                <button type="button" class="btnList btNos" data-toggle="collapse" data-target="#demo">Leer mas</button>
+                <button type="button" class="btnList btNos" data-toggle="collapse" data-target="#demo">Leer mas...</button>
                 <p id="demo" class="collapse nosotras__parrafo fuenteSec text-center">En un año difícil a nivel mundial, para nosotras fue el momento oportuno para crear, así surgió este hermoso proyecto y sin dudarlo lo hicimos realidad. Queremos que sepan, que cada elección de fragancia es pensada para que te transporte a algún lugar, que cierres tus ojos y estés allí, por un instante, o varios minutos, elegimos los mejores materiales para nuestros productos, desde las esencias, los envases, las etiquetas, todo absolutamente todo lo elegimos con el CORAZON, ese es nuestro sello de valor. Queremos compartir con vos, esto que nos hace sentido:
                     Ponete primero en la lista, elegí lo mejor, y siempre en coherencia con lo que decís, sentís y haces.
                     Salir de creencias limitantes, y pensar que siempre siempre , siempre, siempre, se puede.
@@ -81,27 +82,69 @@
                     SOMOS MARINA Y ANAHI, <br>SOMOS <strong> MOLAIDENTIDAD </strong>.
                 </p>
             </div>
+            <div class="col-lg-6 col-xs-12">
+                <img src="../assets/img/molagirls.jpg" id="demo" class="collapse imgNos img-fluid" alt="chicas mola">
+            </div>
         </div>
         <!-- footer -->
-        <div class="row">
-            <div class="col-lg-12 col-xs-12">
-               <ul class="footer"> 
-                   <li><a href="https://www.facebook.com/molaidentidad/" class="footer__padding"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8c6565" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                       <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                   </svg></a></li>
-                   <li><a href="https://www.instagram.com/molaidentidad/?utm_medium=copy_link" class="footer__padding"  target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8c6565" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                       <rect x="4" y="4" width="16" height="16" rx="4" />
-                       <circle cx="12" cy="12" r="3" />
-                       <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                   </svg></a></li>
-               </ul>
-               <h4>Mola Identidad - 2021 LuMazz- Todos los Derechos Reservados</h4>
-           </div>
-           
+        <div class="footer-mola">
+            <div class="pb-5 mb-4">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                  <div class="col-lg-3 col-xs-12">
+                    <img src="../assets/img/molalogoredondo.png" alt="logo mola redondo">
+                  </div>
+                  <div class="col-lg-6 col-xs-12 text-lg-center">
+                    <ul class="list-unstyled nav-links nav-left mb-4 mb-lg-0">
+                      <li><a href="../index.html">Inicio</a></li>
+                      <li><a href="../pages/productos.html">Fragancias Mola</a></li>
+                      <li><a href="../pages/tienda.html">Tienda Mola</a></li>
+                      <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-xs-12">
+                    <ul class="list-unstyled nav-links social nav-right text-lg-right">
+                      <li><a href="https://www.instagram.com/molaidentidad/?utm_medium=copy_link" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8c6565" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                    </svg></a></li>
+                      <li><a href="https://www.facebook.com/molaidentidad/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="56" height="56" viewBox="0 0 24 24" stroke-width="1.5" stroke="#8c6565" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                  <h5>&copy;LuMazz. 2021. Derechos Reservados</h5>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-xs-12">
+                <a href="#top" class="back-to-top-link"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="48" height="48" viewBox="0 0 24 24" stroke-width="1.5" stroke="#997782" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <circle cx="12" cy="12" r="9" />
+                  <line x1="12" y1="8" x2="8" y2="12" />
+                  <line x1="12" y1="8" x2="12" y2="16" />
+                  <line x1="16" y1="12" x2="12" y2="8" />
+                </svg></a>
+              </div>
+            </div>
+          </div>
     </div>
-   
+
+    <!-- Scrip Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
     
     <!-- scripts bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
