@@ -1,0 +1,121 @@
+li {
+  font-family: "Amatic SC", cursive;
+  font-size: 30px; }
+
+body {
+  background-color: #fcf4f0; }
+
+h1 {
+  color: #674348; }
+
+p {
+  color: #997782; }
+
+.container-fluid {
+  margin: 0;
+  padding: 0; }
+
+/* contenido principal */
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+  overflow-x: hidden; }
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 35px; }
+
+p {
+  line-height: 65px; }
+
+.fuenteSec {
+  font-family: 'Andika', sans-serif;
+  font-size: 15px; }
+
+.paddingPrincipal {
+  padding: 20px 0; }
+
+/* card fragancias */
+.card-title {
+  font-size: 30px; }
+
+.card-text {
+  font-family: 'Andika', sans-serif;
+  font-size: 15px; }
+
+.marginCard {
+  margin: 0; }
+
+/* tienda */
+.listado {
+  font-family: 'Andika', sans-serif;
+  font-size: 25px; }
+
+.btnList {
+  font-family: 'Andika', sans-serif;
+  font-size: 20px;
+  background-color: #997782;
+  color: #fcf4f0;
+  border: none; }
+
+/* formulario */
+.formulario {
+  padding: 50px;
+  margin-left: 500px; }
+
+.form-control {
+  font-family: 'Andika', sans-serif; }
+
+.btn {
+  font-family: 'Andika', sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  font-size: 30px;
+  border: none;
+  color: white;
+  background: linear-gradient(0deg, #997782 0%, rgba(198, 150, 130, 0.941614) 73%, #f7ede1 100%); }
+
+.bgColor {
+  background-color: #edd5d8; }
+
+.navbar-nav .nav-item .nav-link {
+  color: #674348;
+  font-size: 30px; }
+
+.navbar-nav > li {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/*  Animaciones */
+/* logo animacion*/
+.hoverLogo {
+  transition: all 3s; }
+
+.hoverLogo:hover {
+  transform: translateY(-30px); }
+
+/* Card animacion*/
+.baseBlock {
+  margin: 0px 0px 35px 0px;
+  padding: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  min-height: 390px;
+  background: #fff;
+  -moz-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -o-transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
+
+.baseBlock:hover {
+  -webkit-transform: translate(0, -8px);
+  -moz-transform: translate(0, -8px);
+  -ms-transform: translate(0, -8px);
+  -o-transform: translate(0, -8px);
+  transform: translate(0, -8px);
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2); }
+
+/* boton formulario*/
+.btn:hover {
+  cursor: pointer;
+  transform: translateY(-4px); }

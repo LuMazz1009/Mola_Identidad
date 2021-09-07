@@ -1,0 +1,16 @@
+$fondo: #fcf4f0;
+$primaria: #edd5d8;
+$primariaClara: #997782;
+$secundaria: #674348;
+$secundariaClara: #c6cebe;
+
+body {
+    background-color: $fondo;
+}
+h1 {
+    color: $secundaria;
+}
+p {
+    color: $primariaClara;
+}
+
