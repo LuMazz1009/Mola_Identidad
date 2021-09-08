@@ -1,6 +1,32 @@
+/*fuente nav*/
 li {
   font-family: "Amatic SC", cursive;
   font-size: 30px; }
+
+.fuenteSec {
+  font-family: "Andika New Basic", sans-serif;
+  font-size: 15px; }
+
+/* fuente tarjeta fragancia*/
+.card-text {
+  font-family: "Andika New Basic", sans-serif;
+  font-size: 15px; }
+
+/* fuente listado tienda*/
+.listado {
+  font-family: "Andika New Basic", sans-serif;
+  font-size: 15px; }
+
+/* fuente formulario contacto*/
+.form-control {
+  font-family: "Andika New Basic", sans-serif; }
+
+/*fuente boton formulario contacto*/
+.btn {
+  font-family: "Amatic SC", cursive; }
+
+.btn:hover {
+  font-family: "Amatic SC", cursive; }
 
 body {
   background-color: #fcf4f0; }
@@ -17,7 +43,7 @@ p {
 
 /* contenido principal */
 body {
-  font-family: 'Amatic SC', cursive;
+  font-family: "Amatic SC", cursive;
   font-size: 40px;
   overflow-x: hidden; }
 
@@ -29,10 +55,6 @@ h1 {
 p {
   line-height: 65px; }
 
-.fuenteSec {
-  font-family: 'Andika', sans-serif;
-  font-size: 15px; }
-
 .paddingPrincipal {
   padding: 20px 0; }
 
@@ -40,20 +62,12 @@ p {
 .card-title {
   font-size: 30px; }
 
-.card-text {
-  font-family: 'Andika', sans-serif;
-  font-size: 15px; }
-
 .marginCard {
   margin: 0; }
 
 /* tienda */
-.listado {
-  font-family: 'Andika', sans-serif;
-  font-size: 15px; }
-
 .btnList {
-  font-family: 'Andika', sans-serif;
+  font-family: "Andika New Basic", sans-serif;
   font-size: 20px;
   background-color: #997782;
   color: #fcf4f0;
@@ -66,12 +80,7 @@ p {
   padding: 50px;
   margin-left: 500px; }
 
-.form-control {
-  font-family: 'Andika', sans-serif; }
-
 .btn {
-  font-family: 'Andika', sans-serif;
-  font-weight: bolder;
   width: 100%;
   font-size: 30px;
   border: none;
@@ -84,6 +93,34 @@ p {
 
 .imgNos {
   padding: 80px; }
+
+.btnLeer {
+  background: #927071;
+  background-image: -webkit-linear-gradient(top, #927071, #edd5d8);
+  background-image: -moz-linear-gradient(top, #927071, #edd5d8);
+  background-image: -ms-linear-gradient(top, #927071, #edd5d8);
+  background-image: -o-linear-gradient(top, #927071, #edd5d8);
+  background-image: linear-gradient(to bottom, #927071, #edd5d8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 10px 20px 10px 20px;
+  border: solid #927071 1px;
+  text-decoration: none; }
+
+.btnLeer:hover {
+  background: #edd5d8;
+  background-image: -webkit-linear-gradient(top, #edd5d8, #674348);
+  background-image: -moz-linear-gradient(top, #edd5d8, #674348);
+  background-image: -ms-linear-gradient(top, #edd5d8, #674348);
+  background-image: -o-linear-gradient(top, #edd5d8, #674348);
+  background-image: linear-gradient(to bottom, #edd5d8, #674348);
+  text-decoration: none; }
 
 .btNos {
   margin-left: 150px; }
@@ -130,10 +167,11 @@ p {
 /* boton formulario*/
 .btn:hover {
   cursor: pointer;
-  transform: translateY(-4px); }
+  transform: translateY(-4px);
+  color: #674348; }
 
 .footer-mola {
-  border-top: 100px solid #fcf4f0;
+  border-top: 200px solid #fcf4f0;
   background-color: #f2e4e9;
   font-family: 'Amatic SC', cursive;
   font-size: 30px;

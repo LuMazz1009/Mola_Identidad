@@ -1,7 +1,34 @@
 $fuentePrimaria: 'Amatic SC', cursive;
 $fuenteSecundaria: 'Andika New Basic', sans-serif;
 
+
+/*fuente nav*/
 li {
     font-family: $fuentePrimaria;
     font-size: 30px;
+}
+.fuenteSec{
+    font-family: $fuenteSecundaria;
+    font-size: 15px;
+}
+/* fuente tarjeta fragancia*/
+.card-text{
+    font-family: $fuenteSecundaria;
+    font-size: 15px;
+}
+/* fuente listado tienda*/
+.listado{
+    font-family: $fuenteSecundaria;
+    font-size: 15px;
+}
+/* fuente formulario contacto*/
+.form-control{
+    font-family: $fuenteSecundaria;
+}
+/*fuente boton formulario contacto*/
+.btn {
+    font-family: $fuentePrimaria;
+}
+.btn:hover {
+    font-family: $fuentePrimaria;
 }
