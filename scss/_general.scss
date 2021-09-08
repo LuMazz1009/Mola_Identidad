@@ -41,7 +41,7 @@ p{
 /* tienda */
 .listado{
     font-family: 'Andika', sans-serif;
-    font-size: 25px;
+    font-size: 15px;
 }
 .btnList{
     font-family: 'Andika', sans-serif;
@@ -49,6 +49,8 @@ p{
     background-color: #997782;
     color: #fcf4f0;
     border: none;
+    border-radius: 4px;
+    height: 35px;
 }
 
 /* formulario */
@@ -67,4 +69,15 @@ p{
     border: none;
     color: white;
     background: linear-gradient(0deg, rgba(153,119,130,1) 0%, rgba(198,150,130,0.9416141456582633) 73%, rgba(247,237,225,1) 100%);
+}
+
+/* nosotras */
+.nosotras__parrafo{
+    padding: 30px;
+}
+.imgNos{
+    padding: 80px;
+}
+.btNos{
+    margin-left: 150px;
 }
