@@ -1,4 +1,4 @@
-
+/*general*/
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -33,13 +33,14 @@ p{
 
 /* tienda */
 .btnList{
-    font-family: $fuenteSecundaria;
-    font-size: 20px;
+    font-family: $fuentePrimaria;
+    font-size: 25px;
+    /*
     background-color: #997782;
     color: #fcf4f0;
     border: none;
     border-radius: 4px;
-    height: 35px;
+    height: 35px; */
 }
 
 /* formulario */

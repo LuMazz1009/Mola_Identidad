@@ -37,6 +37,7 @@ h1 {
 p {
   color: #997782; }
 
+/*general*/
 .container-fluid {
   margin: 0;
   padding: 0; }
@@ -67,13 +68,14 @@ p {
 
 /* tienda */
 .btnList {
-  font-family: "Andika New Basic", sans-serif;
-  font-size: 20px;
-  background-color: #997782;
-  color: #fcf4f0;
-  border: none;
-  border-radius: 4px;
-  height: 35px; }
+  font-family: "Amatic SC", cursive;
+  font-size: 25px;
+  /*
+    background-color: #997782;
+    color: #fcf4f0;
+    border: none;
+    border-radius: 4px;
+    height: 35px; */ }
 
 /* formulario */
 .formulario {
@@ -220,4 +222,5 @@ h5 {
   height: 60px;
   border-radius: 50%;
   background-color: #f2e4e9;
-  padding: 15px; }
+  padding: 20px;
+  margin-left: 15px; }
